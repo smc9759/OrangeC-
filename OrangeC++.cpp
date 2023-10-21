@@ -3,29 +3,19 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 int main()
 {
-	int input = 0;
-	int InputSum = 0;
-	cout << "1번째 정수 입력: ";
-	cin >> input;
-	InputSum += input;
-	cout << "2번째 정수 입력: ";
-	cin >> input;
-	InputSum += input;
-	cout << "3번째 정수 입력: ";
-	cin >> input;
-	InputSum += input;
-	cout << "4번째 정수 입력: ";
-	cin >> input;
-	InputSum += input;
-	cout << "5번째 정수 입력: ";
-	cin >> input;
-	InputSum += input;
+	string name, phonenumber;
+	char name2[10];
+	char phonenumber2[20];
+	cin >> name2;
+	cin >> phonenumber2;
 
-	cout << "합계: " << InputSum << endl;
+	cout << name2 << endl;
+	cout << phonenumber2 << endl;
     return 0;
 }
 
