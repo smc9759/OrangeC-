@@ -8,14 +8,13 @@ using namespace std;
 
 int main()
 {
-	string name, phonenumber;
-	char name2[10];
-	char phonenumber2[20];
-	cin >> name2;
-	cin >> phonenumber2;
+	int input = 0;
+	cin >> input;
 
-	cout << name2 << endl;
-	cout << phonenumber2 << endl;
+	for (int i = 1; i <= 10; i++)
+	{
+		cout << input *(i) << endl;
+	}
     return 0;
 }
 
